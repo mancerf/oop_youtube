@@ -8,7 +8,7 @@ def printj(dict_to_print: dict) -> None:
     print(json.dumps(dict_to_print, indent=2, ensure_ascii=False))
 
 class Channel:
-    """Класс для ютуб-канала"""
+    """Класс для ютубчик-канала"""
 
     def __init__(self, channel_id: str) -> None:
         """Экземпляр инициализируется id канала. Дальше все данные будут подтягиваться по API."""
